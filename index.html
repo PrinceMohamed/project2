@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./New folder/all.min.css">
+    <link rel="stylesheet" href="./New folder/all.min.css">
+    <link rel="stylesheet" href="./New folder/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/brands.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/js/all.js">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/js/brands.min.js">
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #304362;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 70px;
+        letter-spacing: 2px;
+        color: #fff;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    h1:hover {
+        text-shadow: 0px 0px 10px #fff;
+        cursor: pointer;
+    }
+
+    .conter1 {
+        border: 1px solid #fff;
+        position: absolute;
+        border-radius: 5px;
+        height: 90%;
+        width: 40%;
+        backdrop-filter: blur(4px);
+    }
+
+    label {
+        color: #fff;
+        text-shadow: 0px 0px 10px #fff;
+    }
+
+    .btn {
+        font-weight: bold;
+    }
+
+    @media (max-width: 498px) {
+        h1 {
+            font-size: 40px;
+            padding: 15px;
+        }
+
+        h1:hover {
+            cursor: pointer;
+            text-shadow: 0px 0px 10px #fff;
+        }
+
+        .conter1 {
+            border: 1px solid #fff;
+            position: absolute;
+            border-radius: 5px;
+            height: 90%;
+            width: 50%;
+        }
+
+        .show {
+            padding: 5px;
+            cursor: pointer;
+            border: none;
+        }
+    }
+
+    .show {
+        cursor: pointer;
+        border: none;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    .form-control {
+        width: 80%;
+    }
+
+
+    .fa-xmark{
+        margin-top: 10px;
+        margin-right: 30px;
+        font-size: 20px;
+        background-color: #ff0000;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        color: #fff;
+    }
+    a{
+    position: absolute;
+    color: #fff;
+    bottom: 15px;
+    }
+</style>
+</head>
+<body>
+    <div id="particles-js" class="col-lg-12 col-md-6 col-sm-3">
+        <div class="container-fluid mt-5 conter1">
+            <div class="row ">
+                <form class="form-group si d-flex justify-content-center flex-column">
+                    <h1 class="text-capitalize text-lg-center text-md-center text-sm-center">sigin</h1>
+                    <label for="First_Name" class="p-1 m-2">First Name</label>
+                    <div class="col-12 d-flex justify-content-between gap-1">
+                    <input id="First_Name" class="form-control mt-1 firstN" type="text">
+                    <button class="fa-solid mk1 text-light"></button>
+                    </div>
+                    <label for="Last_Name" class="p-1 m-2">Last Name</label>
+                    <div class="col-12 d-flex justify-content-between gap-1">
+                        <input id="Last_Name" class="form-control mt-1 lastN" type="text">
+                    <button class="fa-solid mk2"></button>
+                        </div>
+                    <label for="email" class="p-1 m-2">Email</label>
+                    <div class="col-12 d-flex justify-content-between gap-1">
+                        <input id="email" class="form-control mt-1 email" type="email">
+                    <button class="fa-solid mk3"></button>
+                    </div>
+                    <label for="password" class="p-1 m-2">Password</label>
+                    <div class="col-12 d-flex justify-content-between gap-1">
+                        <input id="password" class="form-control mt-1  password col-md-12" type="password">
+                        <button class="btn show text-light align-self-end col-md-1">Show</button>
+                    </div>
+                    <button class="btn btn-primary m-5 btnsub align-self-end" style="margin-right: 50px;">Sigin</button>
+                <a href="./index1.html">Login</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="./particles.js-master/particles.min.js"></script>
+    <script src="./particles.js-master/particles.js"></script>
+    <script src="./particles.js-master/demo/js/app.js"></script>
+    <script src="./particles.js-master/demo/js/lib/stats.js"></script>
+    <script src="./New folder/all.min.js"></script>
+    <script src="./New folder/bootstrap.bundle.min.js"></script>
+    <script src="./fontawesome-free-6.4.2-web/js/all.js"></script>
+    <script src="./fontawesome-free-6.4.2-web/js/brands.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
